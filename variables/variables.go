@@ -19,3 +19,4 @@ func Variable() {
 
 // name capital start means punlic
 // name non capital start means private
+// %q print with quatation
