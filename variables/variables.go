@@ -14,6 +14,7 @@ const pi = 3.1416
 func Variable() {
 	f := "Bishwajit" //cann't assign outside of function
 	fmt.Println(a, b, c, d, e, f, pi)
+	fmt.Printf("%d %.2f %s %t %s %s %.3f \n", a, b, c, d, e, f, pi)
 }
 
 // name capital start means punlic
