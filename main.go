@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"learning_go/array"
 	"learning_go/conditionals"
+	dataconversion "learning_go/data-conversion"
 	"learning_go/functions"
 	"learning_go/loop"
 	mapsGo "learning_go/maps"
@@ -29,5 +30,5 @@ func main() {
 	mapsGo.MapsInGo()
 	structure.Structure()
 	pointers.Pointer()
-
+	dataconversion.Dataconversion()
 }
