@@ -10,6 +10,7 @@ import (
 	mapsGo "learning_go/maps"
 	"learning_go/myutill"
 	"learning_go/pointers"
+	stringsgo "learning_go/strings-go"
 	"learning_go/structure"
 	"learning_go/userinput"
 	"learning_go/variables"
@@ -31,4 +32,6 @@ func main() {
 	structure.Structure()
 	pointers.Pointer()
 	dataconversion.Dataconversion()
+	stringsgo.Strings()
+
 }
