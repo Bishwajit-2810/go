@@ -6,7 +6,9 @@ import (
 	"learning_go/conditionals"
 	"learning_go/functions"
 	"learning_go/loop"
+	mapsGo "learning_go/maps"
 	"learning_go/myutill"
+	"learning_go/pointers"
 	"learning_go/structure"
 	"learning_go/userinput"
 	"learning_go/variables"
@@ -24,7 +26,8 @@ func main() {
 	array.Slice()
 	conditionals.Conditional()
 	loop.Loop()
-	maps_go.MapsInGo()
+	mapsGo.MapsInGo()
 	structure.Structure()
+	pointers.Pointer()
 
 }

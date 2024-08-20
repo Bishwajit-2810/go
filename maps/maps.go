@@ -1,4 +1,4 @@
-package maps_go
+package mapsGo
 
 import "fmt"
 
