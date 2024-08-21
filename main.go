@@ -1,6 +1,8 @@
 package main
 
-import timedate "learning_go/time-date"
+import (
+	defer_go "learning_go/defer"
+)
 
 func main() {
 
@@ -19,6 +21,7 @@ func main() {
 	// pointers.Pointer()
 	// dataconversion.Dataconversion()
 	// stringsgo.Strings()
-	timedate.TimeDate()
+	// timedate.TimeDate()
+	defer_go.Defer_go()
 
 }
