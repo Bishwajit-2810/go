@@ -1,37 +1,24 @@
 package main
 
-import (
-	"fmt"
-	"learning_go/array"
-	"learning_go/conditionals"
-	dataconversion "learning_go/data-conversion"
-	"learning_go/functions"
-	"learning_go/loop"
-	mapsGo "learning_go/maps"
-	"learning_go/myutill"
-	"learning_go/pointers"
-	stringsgo "learning_go/strings-go"
-	"learning_go/structure"
-	"learning_go/userinput"
-	"learning_go/variables"
-)
+import timedate "learning_go/time-date"
 
 func main() {
 
-	fmt.Println("hello world")
-	myutill.PrintMessage()
-	variables.Variable()
-	userinput.UserInput()
-	functions.Functions()
-	functions.ErrorHandling()
-	array.Array()
-	array.Slice()
-	conditionals.Conditional()
-	loop.Loop()
-	mapsGo.MapsInGo()
-	structure.Structure()
-	pointers.Pointer()
-	dataconversion.Dataconversion()
-	stringsgo.Strings()
+	// fmt.Println("hello world")
+	// myutill.PrintMessage()
+	// variables.Variable()
+	// userinput.UserInput()
+	// functions.Functions()
+	// functions.ErrorHandling()
+	// array.Array()
+	// array.Slice()
+	// conditionals.Conditional()
+	// loop.Loop()
+	// mapsGo.MapsInGo()
+	// structure.Structure()
+	// pointers.Pointer()
+	// dataconversion.Dataconversion()
+	// stringsgo.Strings()
+	timedate.TimeDate()
 
 }
