@@ -1,7 +1,7 @@
 package main
 
 import (
-	defer_go "learning_go/defer"
+	file_handling "learning_go/file"
 )
 
 func main() {
@@ -22,6 +22,7 @@ func main() {
 	// dataconversion.Dataconversion()
 	// stringsgo.Strings()
 	// timedate.TimeDate()
-	defer_go.Defer_go()
+	// defer_go.Defer_go()
+	file_handling.FileHandling()
 
 }
