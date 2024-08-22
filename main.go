@@ -1,6 +1,8 @@
 package main
 
-import "learning_go/web"
+import (
+	url_go "learning_go/url"
+)
 
 func main() {
 
@@ -22,6 +24,7 @@ func main() {
 	// timedate.TimeDate()
 	// defer_go.Defer_go()
 	// file_handling.FileHandling()
-	web.WebRequest()
+	// web.WebRequest()
+	url_go.UrlGo()
 
 }
