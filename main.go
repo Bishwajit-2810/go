@@ -1,6 +1,8 @@
 package main
 
-import json_go "learning_go/json"
+import (
+	"learning_go/crud"
+)
 
 func main() {
 
@@ -24,6 +26,7 @@ func main() {
 	// file_handling.FileHandling()
 	// web.WebRequest()
 	// url_go.UrlGo()
-	json_go.JsonGo()
+	// json_go.JsonGo()
+	crud.GetGo()
 
 }
