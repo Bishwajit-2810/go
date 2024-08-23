@@ -1,8 +1,6 @@
 package main
 
-import (
-	url_go "learning_go/url"
-)
+import json_go "learning_go/json"
 
 func main() {
 
@@ -25,6 +23,7 @@ func main() {
 	// defer_go.Defer_go()
 	// file_handling.FileHandling()
 	// web.WebRequest()
-	url_go.UrlGo()
+	// url_go.UrlGo()
+	json_go.JsonGo()
 
 }
