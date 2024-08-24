@@ -28,5 +28,6 @@ func main() {
 	// url_go.UrlGo()
 	// json_go.JsonGo()
 	// crud.GetGo()
-	crud.PostGo()
+	// crud.PostGo()
+	crud.UpdateGo()
 }
