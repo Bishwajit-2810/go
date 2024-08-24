@@ -27,6 +27,6 @@ func main() {
 	// web.WebRequest()
 	// url_go.UrlGo()
 	// json_go.JsonGo()
-	crud.GetGo()
-
+	// crud.GetGo()
+	crud.PostGo()
 }
