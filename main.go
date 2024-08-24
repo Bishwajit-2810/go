@@ -29,5 +29,6 @@ func main() {
 	// json_go.JsonGo()
 	// crud.GetGo()
 	// crud.PostGo()
-	crud.UpdateGo()
+	// crud.UpdateGo()
+	crud.DeleteGo()
 }
