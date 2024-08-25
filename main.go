@@ -1,7 +1,7 @@
 package main
 
 import (
-	"learning_go/crud"
+	"learning_go/goroutine"
 )
 
 func main() {
@@ -30,5 +30,6 @@ func main() {
 	// crud.GetGo()
 	// crud.PostGo()
 	// crud.UpdateGo()
-	crud.DeleteGo()
+	// crud.DeleteGo()
+	goroutine.GoRoutine()
 }
