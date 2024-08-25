@@ -1,7 +1,7 @@
 package main
 
 import (
-	"learning_go/goroutine"
+	syncwaitgroup "learning_go/sync-waitgroup"
 )
 
 func main() {
@@ -31,5 +31,6 @@ func main() {
 	// crud.PostGo()
 	// crud.UpdateGo()
 	// crud.DeleteGo()
-	goroutine.GoRoutine()
+	// goroutine.GoRoutine()
+	syncwaitgroup.SyncWaitGroup()
 }
